@@ -4,7 +4,52 @@ load("./teamcolors.Rdata")
 #' 
 #' @description These are color schemes from a variety of popular teams.
 #' 
-#' @param name Name of the team to use.
+#' @param name Name of the team to use. Choices are:
+#' "Anaheim Ducks", "Green Bay Packers", "Philadelphia Flyers",
+#' "Arizona Cardinals", "Houston Astros", "Philadelphia Phillies",
+#' "Arizona Coyotes", "Houston Dynamo", "Philadelphia Union",
+#' "Arizona Diamondbacks", "Houston Texans", "Pittsburgh Penguins",
+#' "Arsenal", "Hull City", "Pittsburgh Pirates",
+#' "Aston Villa", "Indianapolis Colts", "Pittsburgh Steelers",
+#' "Atlanta Braves", "Jacksonville Jaguars", "Portland Timbers",
+#' "Atlanta Falcons", "Kansas City Chiefs", "Queens Park Rangers",
+#' "Baltimore Orioles", "Kansas City Royals", "Real Salt Lake",
+#' "Baltimore Ravens", "LA Galaxy", "San Diego Chargers",
+#' "Boston Bruins", "Leicester City", "San Diego Padres",
+#' "Boston Red Sox", "Liverpool", "San Francisco ",49ers
+#' "Buffalo Bills", "Los Angeles Angels of Anaheim", "San Francisco Giants",
+#' "Buffalo Sabres", "Los Angeles Dodgers", "San Jose Earthquakes",
+#' "Burnley", "Los Angeles Kings", "San Jose Sharks",
+#' "Calgary Flames", "Los Angeles Rams", "Seattle Mariners",
+#' "Carolina Hurricanes", "Manchester City", "Seattle Seahawks",
+#' "Carolina Panthers", "Manchester United", "Seattle Sounders FC",
+#' "Chelsea", "Miami Dolphins", "Southampton",
+#' "Chicago Bears", "Miami Marlins", "Sporting Kansas City",
+#' "Chicago Blackhawks", "Milwaukee Brewers", "St Louis Blues",
+#' "Chicago Cubs", "Minnesota Twins", "St Louis Cardinals",
+#' "Chicago Fire", "Minnesota Vikings", "Stoke City",
+#' "Chicago White Sox", "Minnesota Wild", "Sunderland",
+#' "Cincinnati Bengals", "Montreal Canadiens", "Swansea City",
+#' "Cincinnati Reds", "Montreal Impact", "Tampa Bay Buccaneers",
+#' "Cleveland Browns", "Nashville Predators", "Tampa Bay Lightning",
+#' "Cleveland Indians", "New England Patriots", "Tampa Bay Rays",
+#' "Colorado Avalanche", "New England Revolution", "Tennessee Titans",
+#' "Colorado Rapids", "New Jersey Devils", "Texas Rangers",
+#' "Colorado Rockies", "New Orleans Saints", "Toronto Blue Jays",
+#' "Columbus Blue Jackets", "New York City FC", "Toronto FC",
+#' "Columbus Crew", "New York Giants", "Toronto Maple Leafs",
+#' "Crystal Palace", "New York Islanders", "Tottenham Hotspur",
+#' "DC United", "New York Jets", "Vancouver Canucks",
+#' "Dallas Cowboys", "New York Mets", "Vancouver Whitecaps FC",
+#' "Dallas Stars", "New York Rangers", "Vegas Golden Knights",
+#' "Denver Broncos", "New York Red Bulls", "Washington Capitals",
+#' "Detroit Lions", "New York Yankees", "Washington Nationals",
+#' "Detroit Red Wings", "Newcastle United", "Washington Redskins",
+#' "Detroit Tigers", "Oakland Athletics", "West Bromwich Albion",
+#' "Edmonton Oilers", "Oakland Raiders", "West Ham United",
+#' "Everton", "Orlando City SC", "Winnipeg Jets",
+#' "FC Dallas", "Ottawa Senators", 
+#' "Florida Panthers", "Philadelphia Eagles"
 #' @return A vector of colors (hex format)
 #' @export
 #' @keywords colors sports
