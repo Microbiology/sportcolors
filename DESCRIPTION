@@ -9,6 +9,6 @@ Depends:
     R (>= 3.0)
 License: Unlicense
 LazyData: true
-URL: https://github.com/Microbiology/TeamColors
-BugReports: https://github.com/Microbiology/TeamColors/issues
+URL: https://github.com/Microbiology/sportcolors
+BugReports: https://github.com/Microbiology/sportcolors/issues
 RoxygenNote: 6.0.0
