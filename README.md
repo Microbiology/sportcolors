@@ -12,7 +12,7 @@ install_github("Microbiology/sportcolors")
 library(sportcolors)
 ```
 
-# Running an Example
+## Running an Example
 Once it is installed, try it out.
 
 ```r
