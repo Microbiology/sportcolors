@@ -1,0 +1,14 @@
+Package: teamcolors
+Title: Sports Team Colors
+Description: Color palettes from popular sports teams.
+Date: 2017-02-01
+Version: 0.0.1
+Author: Geoffrey D Hannigan, PhD
+Maintainer: Geoffrey D Hannigan, PhD <ghannig@umich.edu>
+Depends:
+    R (>= 3.0)
+License: Unlicense
+LazyData: true
+URL: https://github.com/Microbiology/TeamColors
+BugReports: https://github.com/Microbiology/TeamColors/issues
+RoxygenNote: 6.0.0
