@@ -1,3 +1,5 @@
+[![Twitter Follow](https://img.shields.io/twitter/follow/iprophage.svg?style=social)](https://twitter.com/iprophage)
+
 # sportcolors
 Color palettes from popular sports teams.
 
