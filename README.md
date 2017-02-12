@@ -22,4 +22,4 @@ team_colors("Chicago Cubs")
 ## Color Options
 You have a lot of team colors to choose from. Below are the existing options.
 
-![So many teams!](./figures/cexamples.pdf)
+![So many teams!](./figures/cexamples.png)
