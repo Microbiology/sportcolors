@@ -8,7 +8,8 @@ teamlist <- list()
 for( i in json_data ){
 	tname <- i$name
 	tcol <- i$colors$hex
+	tcol <- paste("#", tcol, sep = "")
 	teamlist[[ tname ]] <- tcol
 }
 
-save(teamlist, file = "../data/teamcolors.Rdata")
+save(teamlist, file = "./teamcolors.Rdata")
