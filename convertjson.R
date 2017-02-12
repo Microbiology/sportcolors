@@ -8,6 +8,7 @@ teamlist <- list()
 for( i in json_data ){
 	tname <- i$name
 	tcol <- i$colors$hex
+	if (length(tcol) < 1) next
 	tcol <- paste("#", tcol, sep = "")
 	teamlist[[ tname ]] <- tcol
 }
