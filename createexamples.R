@@ -30,10 +30,12 @@ outlist <- lapply(names(teamlist), function(i) {
 
 heatout <- plot_grid(plotlist = outlist, ncol = 1)
 
-pdf(
-file = "./figures/cexamples.pdf",
+png(
+file = "./figures/cexamples.png",
 width = 6,
-height = 75
+height = 75,
+units="in",
+res=500
 )
 	heatout
 dev.off()
