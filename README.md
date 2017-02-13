@@ -5,6 +5,8 @@ Color palettes from popular sports teams.
 
 Click "Watch" above to be alterted when I make updates or fix issues.
 
+![](https://pbs.twimg.com/media/CJbA9SgVAAEmubK.jpg)
+
 ## How To Install
 Type the following commands into your R session.
 
